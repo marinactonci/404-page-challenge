@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header {
+    margin-top: 40px;
+    margin-left: 77px;
+}
+
+header p{
+    font-family: "Inconsolata", monospace;
+    color: #333333;
+}
+
+img{
+    width: 500px;
+    height: 450px;
+}
+
+h1{
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 64px;
+    width: 600px;
+    line-height: 95px;
+}
+
+.main p{
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 36px;
+    margin-bottom: 64px;
+    width: 381px;
+    line-height: 35.5px;
+}
+
+button{
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #333333;
+    color: white;
+    height: 68px;
+    width: 216px;
+    border: 1px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.right {
+    margin-left: 180px;
+}
+
+footer {
+    margin-top: auto;
+    margin-bottom: 24px;
+}
+
+footer p{
+    font-family: "Montserrat", monospace;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    text-align: center;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+@media (max-width: 400px){
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        margin-top: 20px;
+        margin-left: 24px;
+    }
+
+    img {
+        height: 238px;
+        width: 286px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .right {
+        margin-left: 0;
+        margin-left: 10%;
+    }
+
+    h1{
+        font-size: 48px;
+        width: 400px;
+    }
+
+    .main p {
+        width: 350px;
+        font-size: 18px;
+    }
+}
