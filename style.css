@@ -87,7 +87,7 @@ footer p a{
     color: #BDBDBD;
 }
 
-@media (max-width: 400px){
+@media (max-width: 800px){
     body{
         overflow-x: hidden;
     }
